@@ -20,6 +20,7 @@ a
 {
     font-size: 1rem;
     color: var(--ligther);
+    background-color: black;
 }
 
 #lupa
@@ -44,7 +45,7 @@ a
     margin-top: 0.5%;
     margin-bottom: 1%;
     margin-top: 2%;
-    height: 20px
+    height: 20px;
 }
 
 #options-menu
@@ -68,6 +69,7 @@ a
     padding-right: 1rem;
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
+    background-color: black;
 }  
 
 #sing_up
@@ -78,6 +80,7 @@ a
     padding-right: 1rem;
     padding-top: 0.2rem;
     padding-bottom: 0.2rem; 
+    background-color: black;
 }
 
 #list
@@ -89,6 +92,7 @@ a
     padding-right: 1rem;
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
+    background-color: black;
 }  
 
 .options_menu
