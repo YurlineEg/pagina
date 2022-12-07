@@ -13,12 +13,14 @@ body
     flex: auto;
     background-color: var(--ligther);
 }
-
+/* -------------------------- Letter of the options ------------------------ */
 a
 {
     font-size: 1rem;
     color: var(--ligther);
 }
+
+/* --------------------------- ID of main sections ----------------------------*/
 
 #catalogos
 {
@@ -96,70 +98,76 @@ a
     background-color: black;
 }  
 
+/* ----------------------------- List options generals ----------------------------*/
+
 #electroforming_option
 {
-    background-color: black;
-    margin-left: 5rem;
+    padding-bottom: 1rem;
 }
 
 #chains_option
 {
-    background-color: black;
-    margin-left: 5rem;
+    padding-bottom: 1rem;
 }
 
 #hooped_option
 {
-    background-color: black;
-    margin-left: 5rem;   
+    padding-bottom: 1rem;
 }
 
 #rings_option
 {
-    background-color: black;
-    margin-left: 5rem;   
+    padding-bottom: 1rem;
 }
 
-/* ----------------------- options - img -------------------- */
-#img_electroforming
+/* ------------------------- Options of electroforming -------------------------- */
+#img_pieces-electroforming
 {
     height: 20rem;
-    padding-right: 2rem;
+    padding-right: 3rem;
 }
 
-#img_chains
+#img_rings-electroforming
 {
     height: 20rem;
-    padding-right: 2rem;
+    padding-right: 3rem;
 }
 
-#img_hooped
+#img_peandants_and_earrings-electroforming
 {
     height: 20rem;
-    padding-right: 2rem;
 }
 
-#img_rings
-{
-    height: 20rem;
-    padding-right: 2rem;
-}
-
+/* --------------------------------- Classes - Main section --------------------------------- */
 .options_menu
 {
     background-color: black;
     display: flex;
 }
 
-.options_1
-{  
+/* ---------------------- Classes compleat of options ---------------------------------------- */
+.list_options_plus_second_opcions
+{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: var(--ligth);
     display: flex;
-    padding: 3rem;
 }
 
-.options_2
+/*------------------ list options left -----------------*/
+.list_options_left
 {
-    padding-left: 3rem;
     padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: var(--medium);
+
+}
+
+/* -------------- list options right ----------*/
+.list_options_right
+{
+    padding: 7rem;
     display: flex;
 }
