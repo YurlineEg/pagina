@@ -1,3 +1,4 @@
+/* ------------------------------------------------------- MAIN BASE ------------------------------------------------------------- */
 :root 
 {
     --darker: #141414;
@@ -151,6 +152,141 @@ a
 
 }
 
-
 /* --------------------------------------------------- END MAIN BASE --------------------------------------------------------- */
 
+
+/* ------------------------------------------------ list of pieces on the section ------------------------------------------------*/
+.list_general_pieces
+{
+    display: flex;
+}
+
+/* ----------------------------- Part 1 ------------------------------*/
+.list_of_pieces1
+{
+    padding: 1rem;
+    padding-left: 3rem;
+}
+
+/* ----- Pieza 1 -----*/
+#option_piece_section_1
+{
+    padding-left: 1rem;
+    display: flex;
+}
+
+
+#img_piece_1
+{
+    height: 10rem;
+    padding: 1rem;
+}
+
+#option_text_piece1
+{
+    padding-top: 4rem;
+}
+
+/* ----- Pieza 2 -----*/
+#option_piece_section_2
+{
+    padding-left: 1rem;
+    display: flex;
+}
+
+#img_piece_2
+{
+    height: 10rem;
+    padding: 1rem;
+}
+
+#option_text_piece2
+{
+    padding-top: 4rem;
+}
+
+/* ----- Pieza 3 -----*/
+#option_piece_section_3
+{
+    padding-left: 1rem;
+    display: flex;
+}
+
+#img_piece_3
+{
+    height: 10rem;
+    padding: 1rem;
+}
+
+#option_text_piece3
+{
+    padding-top: 4rem;
+}
+
+/* ----- Pieza 4 -----*/
+#option_piece_section_4
+{
+    padding-left: 1rem;
+    display: flex;
+}
+
+#img_piece_4
+{
+    height: 10rem;
+    padding: 1rem;
+}
+
+#option_text_piece4
+{
+    padding-top: 4rem;
+}
+
+/* ---------------------------------- Part 2 ----------------------------------*/
+.list_of_pieces2
+{
+    padding: 1rem; 
+    padding-left: 9rem;  
+}
+
+/* ----- Pieza n1 -----*/
+#option_piece_section_n1
+{
+    padding-left: 1rem;
+    display: flex;
+}
+
+#img_piece_n1
+{
+    height: 10rem;
+    padding: 1rem;
+}
+
+#option_text_piecen1
+{
+    padding-top: 4rem;
+}
+
+/* ----------------------------------- Part 3 -------------------------------------*/
+.list_of_pieces3
+{
+    padding: 1rem; 
+    padding-left: 9rem;  
+}
+
+/* ----- Pieza m1 -----*/
+#option_piece_section_m1
+{
+    padding-left: 1rem;
+    display: flex;
+}
+
+#img_piece_m1
+{
+    height: 10rem;
+    padding: 1rem;
+}
+
+#option_text_piecem1
+{
+    padding-top: 4rem;
+}
