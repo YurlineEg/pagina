@@ -6,83 +6,131 @@
     --ligth: #A6A6A6;
     --ligther: #D1D1D1;
 }
-/* Barra inicial */ 
 
 body 
 {
     flex: auto;
+    padding: none;
+    margin: none;
     background-color: var(--ligther);
 }
 
 a
 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--ligther);
+    text-decoration: none;
+    font-weight: bold;
+    margin: none;
+    padding: none;
 }
 
-#catalogos
-{
-    margin-left: 17.35%;
-    margin-top: 0.3%;
-    height: 60px;
+
+/*-------------------- Barra inicial --------------------*/ 
+
+#options_menu{
+    display: flex;
+    background-color: black;
+    margin: none;
+    padding: 0.3%;
+    border: none;
+    border-radius: 0.6rem;
 }
 
-#lupa
+
+#logo
 {
-    height: 14px;
+    margin-left: 25%;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 4rem;
 }
 
-#search_button
-{
-    margin-left: 0.2rem;
-    margin-top: 1.85rem;
-    padding-bottom: 1.25rem;
-    height: 14px;
+#catalogos_img{
+ height: 3.5rem;
+ margin: auto;
 }
 
 #barra_busqueda
 {
-    margin-left: 23.1%;
+    margin-left: auto;
     margin-top: 0.5%;
-    margin-bottom: 1%;
-    margin-top: 2%;
-    height: 20px
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 1.6rem;
+    width: 25%;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    outline: none;
 }
 
-#options-menu
-{
-    flex: auto;
-    background-color: black;
+input:focus{
+    border: none;
+    box-shadow: -0.1rem 0rem 1.2rem var(--ligth);
 }
 
-#logo
+#search_button
 {
-    margin-left: 2%;
-    margin-top: 0.3%;
-    height: 60px;
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
-#login
+#lupa
 {
-    margin-left: 1rem;
+    height: 1rem;
+    margin: none;
+    padding: 0.23rem;
+}
+
+.btn_link{
+    align-items: flex-end;
+    margin-right: 1rem;
     background-color: var(--darker);
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
+    padding: none;
     background-color: black;
-}  
-
-#sing_up
-{
-    margin-left: 1rem;
-    background-color: var(--darker);
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem; 
-    background-color: black;
+    height: fit-content;
+    padding: 0.9%;
+    border: none;
+    border-radius: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
+
+#home_button{
+    margin-right: none;
+    margin-left: 3rem;
+    background-color: var(--ligther);
+    color: black;
+}
+
+#home_link{
+    color: var(--dark);
+}
+
+#sing_up_button
+{
+    background-color: var(--dark);
+}
+
+#sing_up_button:hover{
+    background-color: var(--medium);
+}
+
+.log_btn:hover{
+    background-color: var(--medium);
+}
+
+#home_button:hover{
+    background-color: var(--ligth);
+}
+
+/*-------------------- Otros --------------------*/ 
 
 #list
 
