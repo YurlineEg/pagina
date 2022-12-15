@@ -125,8 +125,126 @@ input:focus{
     background-color: var(--ligth);
 }
 
-/*-------------------- second section --------------------*/
+/*-------------------- second section - first by front page and information--------------------*/
 
+#box_1
+{
+    margin-top: 2%;
+    background-color: var(--ligth);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.slider
+{
+    width: 70%;
+    margin: auto;
+    margin-top: 0%;
+    overflow: hidden;
+}
+.slider ul
+{
+    display: flex;
+    padding: 0;
+    width: 500%;
+    
+    animation: cambio 50s infinite;
+}
+
+.slider li
+{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.slider img
+{
+    width: 100%;
+}
+@keyframes cambio 
+{
+    0% {margin-left: 0%;}
+    10% {margin-left: 0%;}
+
+    20% {margin-left: -100%;}
+    30% {margin-left: -100%;} 
+
+    40% {margin-left: -200%;}
+    45% {margin-left: -200%;}    
+    
+    50% {margin-left: -300%;}
+    60% {margin-left: -300%;}    
+
+    70% {margin-left: -400%;}
+    100% {margin-left: -400%;}
+}
+
+#box_tittle
+{
+    background-color: var(--ligth);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1
+{
+    font-size: 4.5rem;
+    text-align: center;
+    margin: auto;
+}
+
+h2
+{
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+#box_information
+{
+    background-color: var(--ligth);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2%;
+}
+
+h3
+{
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    font: medium;
+    line-height: 3rem;
+    padding-bottom: 1%;   
+}
+
+h4
+{
+    font-size: 1rem;
+    text-align: center;
+    margin: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: justify;
+    font: icon;
+    line-height: 1.5rem;
+    padding-bottom: 1%;
+}
+
+h5
+{
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 10%;
+    margin: auto;
+    line-height: 3rem;
+    padding-bottom: 1%;  
+}
+
+/*-------------------- second section --------------------*/
 .section_2
 {
     background-color: var(--ligth);
