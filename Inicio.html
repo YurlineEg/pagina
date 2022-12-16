@@ -1,38 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Inicio.css">
-        <title>Inicio</title>
-    </head>
-    <body>
-        <div id="options_menu">
-            <a href="./Inicio.html">
-                <img id="logo" src="./imagenes/Logotipo.jpeg" alt="Logotipo">
-            </a>
-            <button class="btn_link" id="catalog_button">
-                 <a href="./List_of_products.html" id="catalog_link">Catálogos</a>
-            </button>
-            <input type="text" id="barra_busqueda"/>
-            <button id="search_button">
-                <img src="./imagenes/lupa.png" alt="buscar" id="lupa" />
-            </button>
-            <button class="btn_link log_btn">
-                <a href="./Inicio_de_sesion.html" class="a_link">Iniciar sesion</a>
-            </button>
-            <button class="btn_link log_btn" id="sing_up_button">
-                <a href="./Sing_up.html" class="a_link">Registrarse</a>
-            </button>
-        </div>
-        <section class="section_2" >
-            <div>
-                <a href="./List_of_products.html">
-                    <img id="option_list_of_products" src="./imagenes/Logotipo.jpeg" alt="List_of_products">
-                </a>
-            </div>
-
-        </section>
-    </body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Inicio.css" />
+    <title>Inicio</title>
+  </head>
+  <body>
+    <div id="options_menu">
+      <a href="./Inicio.html">
+        <img id="logo" src="./imagenes/Logotipo.jpeg" alt="Logotipo" />
+      </a>
+      <button class="btn_link" id="catalog_button">
+        <a href="./List_of_products.html" id="catalog_link">Catálogos</a>
+      </button>
+      <input type="text" id="barra_busqueda" />
+      <button id="search_button">
+        <img src="./imagenes/lupa.png" alt="buscar" id="lupa" />
+      </button>
+      <button class="btn_link log_btn not_logged">
+        <a href="./Inicio_de_sesion.html" class="a_link">Iniciar sesión</a>
+      </button>
+      <button class="btn_link log_btn not_logged" id="sing_up_button">
+        <a href="./Sing_up.html" class="a_link">Registrarse</a>
+      </button>
+      <button class="btn_link log_btn logged" id="logout_button">
+        Cerrar sesión
+      </button>
+    </div>
+    <section class="section_2">
+      <div>
+        <a href="./List_of_products.html">
+          <img
+            id="option_list_of_products"
+            src="./imagenes/Logotipo.jpeg"
+            alt="List_of_products"
+          />
+        </a>
+      </div>
+    </section>
+  </body>
 </html>
