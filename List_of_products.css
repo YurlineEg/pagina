@@ -46,11 +46,6 @@ a
     height: 4rem;
 }
 
-#catalogos_img{
- height: 3.5rem;
- margin: auto;
-}
-
 #barra_busqueda
 {
     margin-left: auto;
@@ -102,14 +97,14 @@ input:focus{
     margin-bottom: auto;
 }
 
-#home_button{
+#catalog_button{
     margin-right: none;
     margin-left: 3rem;
     background-color: var(--ligther);
     color: black;
 }
 
-#home_link{
+#catalog_link{
     color: var(--dark);
 }
 
@@ -126,84 +121,203 @@ input:focus{
     background-color: var(--medium);
 }
 
-#home_button:hover{
+#catalog_button:hover{
     background-color: var(--ligth);
 }
 
-/*-------------------- Otros --------------------*/ 
 
-#list
-
+/*------------------------------------------ list of products --------------------------------------*/ 
+.list_of_products
 {
-    margin-left: 1rem;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    background-color: var(--ligth);
+    padding: 2%;
+}
+
+/*-------------- Opcion one -------------*/
+#first_box
+{
+    display: flex;
+    background-color: var(--medium);
+}
+
+.imgs-electro
+{
+    width: 100%;
+    margin: auto;
+    margin-top: 0%;
+    overflow: hidden;
+}
+.imgs-electro ul
+{
+    display: flex;
+    padding: 0%;
+    width: 750%;
+    
+    animation: cambio 50s infinite;
+}
+
+.imgs-electro li
+{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.imgs-electro img
+{
+    width: 80%;
+}
+
+@keyframes cambio 
+{
+    0% {margin-left: 0%;}
+    5% {margin-left: 0%;}
+
+    10% {margin-left: -100%;}
+    15% {margin-left: -100%;} 
+
+    20% {margin-left: -200%;}
+    25% {margin-left: -200%;}    
+    
+    30% {margin-left: -300%;}
+    35% {margin-left: -300%;}    
+
+    40% {margin-left: -400%;}
+    45% {margin-left: -400%;}
+
+    50% {margin-left: -500%;}
+    55% {margin-left: -500%;}
+
+    60% {margin-left: -600%;}
+    65% {margin-left: -600%;}
+
+    70% {margin-left: -700%;}
+    75% {margin-left: -700%;}
+
+    80% {margin-left: -800%;}
+    85% {margin-left: -800%;}
+
+    90% {margin-left: -900%;}
+    100% {margin-left: -900%;}
+}
+
+
+#electro-button
+{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#electro-button:hover{
+    background-color: var(--ligther);
+}
+
+#electro_link{
+    color: var(--dark);
+}
+
+.btn_link-options
+{
+    align-items: flex-end;
+    margin-right: 1rem;
     background-color: var(--darker);
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
-    background-color: black;
-}  
-
-#electroforming_option
-{
-    background-color: black;
-    margin-left: 5rem;
+    padding: none;
+    background-color: rgb(250, 246, 246);
+    height: fit-content;
+    padding: 0.9%;
+    border: none;
+    border-radius: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-#chains_option
+/*-------------- Opcion two - chains -------------*/
+#second_box
 {
-    background-color: black;
-    margin-left: 5rem;
-}
-
-#hooped_option
-{
-    background-color: black;
-    margin-left: 5rem;   
-}
-
-#rings_option
-{
-    background-color: black;
-    margin-left: 5rem;   
-}
-
-/* ----------------------- options - img -------------------- */
-#img_electroforming
-{
-    height: 20rem;
-}
-
-#img_chains
-{
-    height: 20rem;
-}
-
-#img_hooped
-{
-    height: 20rem;
-}
-
-#img_rings
-{
-    height: 20rem;
-}
-
-.options_menu
-{
-    background-color: black;
     display: flex;
+    background-color: var(--medium);
 }
 
-.options_1
-{  
-    display: flex;
-    padding: 3rem;
-}
-
-.options_2
+.imgs-chains
 {
-    padding-left: 3rem;
-    padding-top: 2rem;
-    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 0%;
+    overflow: hidden;
 }
+.imgs-chains ul
+{
+    display: flex;
+    padding: 0%;
+    width: 750%;
+    
+    animation: cambio2 50s infinite;
+}
+
+.imgs-chains li
+{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.imgs-chains img
+{
+    width: 80%;
+}
+
+@keyframes cambio2 
+{
+    0% {margin-left: 0%;}
+    5% {margin-left: 0%;}
+
+    10% {margin-left: -100%;}
+    15% {margin-left: -100%;} 
+
+    20% {margin-left: -200%;}
+    25% {margin-left: -200%;}    
+    
+    30% {margin-left: -300%;}
+    35% {margin-left: -300%;}    
+
+    40% {margin-left: -400%;}
+    45% {margin-left: -400%;}
+
+    50% {margin-left: -500%;}
+    55% {margin-left: -500%;}
+
+    60% {margin-left: -600%;}
+    65% {margin-left: -600%;}
+
+    70% {margin-left: -700%;}
+    75% {margin-left: -700%;}
+
+    80% {margin-left: -800%;}
+    85% {margin-left: -800%;}
+
+    90% {margin-left: -900%;}
+    100% {margin-left: -900%;}
+}
+
+#chains-button
+{
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+}
+
+#chains-button:hover{
+    background-color: var(--ligther);
+}
+
+#chains_link{
+    color: var(--dark);
+}
+
+/*-------------- Opcion three - -------------*/
+
+
+/*----------------*/

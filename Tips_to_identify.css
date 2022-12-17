@@ -190,17 +190,11 @@ input:focus{
 
 h1
 {
-    font-size: 4.5rem;
+    font-size: 3rem;
     text-align: center;
     margin: auto;
-}
-
-h2
-{
-    margin: auto;
-    font-size: 2rem;
-    text-align: center;
-    font-style: italic;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #box_information
@@ -210,17 +204,6 @@ h2
     margin-right: 20%;
     padding-top: 2%;
     margin-bottom: 3%;
-}
-
-h3
-{
-    font-size: 2rem;
-    text-align: center;
-    margin: auto;
-    margin-top: 5%;
-    font: medium;
-    line-height: 3rem;
-    padding-bottom: 1%;   
 }
 
 h4
@@ -239,42 +222,12 @@ h4
 h5
 {
     font-size: 1.2rem;
-    padding-left: 5%;
-    line-height: 1.5rem;
-    padding-bottom: 0%;  
-    color: var(--ligther)
+    text-align: left;
+    padding-left: 10%;
+    margin: auto;
+    line-height: 3rem;
+    padding-bottom: 1%;  
 }
-
-#tips
-{
-    color: var(--ligther);
-    font-size: 1.2rem;
-    margin-left: 2%;
-    margin-right: 0%; 
-}
-
-
-#btn-tips:hover
-{
-    background-color: var(--dark);
-
-}
-
-.btn-tips
-{
-    align-items: flex-end;
-    margin-right: 57%;
-    margin-left: 0%;
-    padding: none;
-    background-color: var(--medium);
-    height: fit-content;
-    padding: 0.9%;
-    border: none;
-    border-radius: 0rem;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
 
 /*-------------------- end section --------------------*/
 .end_page
@@ -282,4 +235,3 @@ h5
     margin-top: 2%;
     background-color: var(--ligth);
 }
-
