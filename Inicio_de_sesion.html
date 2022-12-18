@@ -1,39 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Inicio_de_sesion.css">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Inicio_de_sesion.css" />
     <title>Loging</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container_form_sing_up">
-        <form class="formulario">
-            <a href="./Inicio.html">
-                <img id="logo1" src="./imagenes/Logotipo.jpeg" alt="Logotipo">
+      <form class="formulario">
+        <a href="./Inicio.html">
+          <img id="logo1" src="./imagenes/Logotipo.jpeg" alt="Logotipo" />
+        </a>
+        <h2 class="create_account">Iniciar session</h2>
+        <p class="cuenta">Ingrese su usuario y contraseña:</p>
+        <input type="email" placeholder="Usuario" id="input_email" />
+        <input type="password" placeholder="Contraseña" id="input_pass" />
+        <input
+          type="button"
+          value="Login"
+          onClick="location.href='./index.html'"
+          id="input_button"
+        />
+        <a id="home_link" href="./index.html">Inicio</a>
+        <p id="Visitanos">Visitanos en</p>
+        <div class="icons">
+          <div class="border_icon">
+            <a href="https://www.instagram.com/electroformado.clau/">
+              <i class="bx bxl-instagram"></i>
             </a>
-            <h2 class="create_account">Iniciar session</h2>
-            <p class="cuenta">Ingrese su usuario y contraseña:</p>
-            <input type="email" placeholder="Usuario" id="input_email">
-            <input type="password" placeholder="Contraseña" id="input_pass">
-            <input type="button" value="Login" onClick="location.href='./index.html'" id="input_button">
-            <a id="home_link" href="./index.html">Inicio</a>
-            <p id="Visitanos">Visitanos en </p>
-            <div class="icons">
-                <div class="border_icon">
-                    <a href="https://www.instagram.com/electroformado.clau/">
-                        <i class='bx bxl-instagram'></i>
-                    </a>
-                </div>
-                <div class="border_icon">
-                    <a href="https://www.facebook.com/profile.php?id=100087731573782">
-                        <i class='bx bxl-facebook-circle' ></i>
-                    </a>
-                </div>
-            </div>
-        </form>
+          </div>
+          <div class="border_icon">
+            <a href="https://www.facebook.com/profile.php?id=100087731573782">
+              <i class="bx bxl-facebook-circle"></i>
+            </a>
+          </div>
+        </div>
+      </form>
     </div>
     <script src="login.js"></script>
-</body>
+  </body>
 </html>

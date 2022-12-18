@@ -1,91 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catalogos</title>
+    <link rel="stylesheet" href="List_of_products.css">
 </head>
 <body>
-    <section>
-        <link rel="stylesheet" href="List_of_products.css">
-        <div id="options_menu">
-            <a href="./Inicio.html">
-                <img id="logo" src="./imagenes/Logotipo.jpeg" alt="Logotipo">
+    <div id="options_menu">
+        <a href="./Inicio.html">
+            <img id="logo" src="./imagenes/Logotipo.jpeg" alt="Logotipo">
+        </a>
+        <button class="btn_link" id="home_button">
+             <a href="./Inicio.html" id="home_link">Inicio</a>
+        </button>
+        <img src="./imagenes/Catalogos.jpeg" alt="" id="catalogos_img">
+        <input type="text" id="barra_busqueda"/>
+        <button id="search_button">
+            <img src="./imagenes/lupa.png" alt="buscar" id="lupa" />
+        </button>
+        <button class="btn_link log_btn">
+            <a href="./Inicio_de_sesion.html" class="a_link">Iniciar sesion</a>
+        </button>
+        <button class="btn_link log_btn" id="sing_up_button">
+            <a href="./Sing_up.html" class="a_link">Registrarse</a>
+        </button>
+    </div>
+    <section class="options_1" >
+        <div id="electroforming_option" >
+            <a href="./Electroforming_section.html">
+                <img id="img_electroforming" src="./imagenes/Logotipo.jpeg" alt="img_electroforming">
             </a>
-            <button class="btn_link" id="catalog_button">
-                 <a href="./List_of_products.html" id="catalog_link">Catálogos</a>
-            </button>
-            <input type="text" id="barra_busqueda"/>
-            <button id="search_button">
-                <img src="./imagenes/lupa.png" alt="buscar" id="lupa" />
-            </button>
-            <button class="btn_link log_btn">
-                <a href="./Inicio_de_sesion.html" class="a_link">Iniciar sesion</a>
-            </button>
-            <button class="btn_link log_btn" id="sing_up_button">
-                <a href="./Sing_up.html" class="a_link">Registrarse</a>
-            </button>
+        </div>
+        <div id="chains_option" >
+            <a href="./Silver_chains_section.html">
+                <img id="img_chains" src="./imagenes/Logotipo.jpeg" alt="img_chains">
+            </a>
+        </div>    
+        <div id="hooped_option" >
+            <a href="./Silver_hooped_section.html">
+                <img id="img_hooped" src="./imagenes/Logotipo.jpeg" alt="img_hooped">
+            </a>
         </div>
     </section>
-
-    <section class="list_of_products">
-        <div id="first_box">
-            <button class="btn_link-options" id="electro-button">
-                <a href="./Electroforming_section.html" id="electro_link">Electroformado</a>
-           </button>
-           <div class="imgs-electro">
-                <a href="/Electroforming_section.html">
-                    <ul>
-                        <li><img src="./img_para_catalogos/img_pieces/P - 001 Tigre de vengala.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_rings/ANC - 001 Argolla tous.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_sets/JM - 001 Girasol liso.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_pieces/P - 002 Elefante de la suerte.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_rings/ANC - 002 Argolla osos tous.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_sets/JM - 002 Tous tejido.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_pieces/P - 003 Catrina con moños.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_rings/ANC - 003 Argolla ositos tous.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_sets/JM - 003 Mariposa grabada.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_pieces/P - 001 Tigre de vengala.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_rings/ANC - 004 Mariposa lisa.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_sets/JM - 004 Arbol de la vida cuadrado.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_pieces/P - 002 Elefante de la suerte.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_rings/ANG - 005 Moño liso.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_sets/JM - 005 TOUS DE LINEAS.jpg" alt=""></li>
-                    </ul>
-                </a>
-            </div>
+    <section class="options_2">
+        <div id="rings_option">
+            <a href="./Silver_rings_section.html">
+                <img id="img_rings" src="./imagenes/Logotipo.jpeg" alt="img_rings">
+            </a>
         </div>
-        <div id="second_box">
-            <button class="btn_link-options" id="chains-button">
-                <a href="./Silver_chains_section.html" id="chains_link">Cadenas</a>
-            </button>
-           <div class="imgs-chains">
-                <a href="/Electroforming_section.html">
-                    <ul>
-                        <li><img src="./img_para_catalogos/img_pieces/P - 001 Tigre de vengala.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_rings/ANC - 001 Argolla tous.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_sets/JM - 001 Girasol liso.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_pieces/P - 002 Elefante de la suerte.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_rings/ANC - 002 Argolla osos tous.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_sets/JM - 002 Tous tejido.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_pieces/P - 003 Catrina con moños.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_rings/ANC - 003 Argolla ositos tous.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_sets/JM - 003 Mariposa grabada.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_pieces/P - 001 Tigre de vengala.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_rings/ANC - 004 Mariposa lisa.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_sets/JM - 004 Arbol de la vida cuadrado.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_pieces/P - 002 Elefante de la suerte.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_rings/ANG - 005 Moño liso.jpg" alt=""></li>
-                        <li><img src="./img_para_catalogos/img_sets/JM - 005 TOUS DE LINEAS.jpg" alt=""></li>
-                    </ul>
-                </a>
-            </div>
-        </div>
-
-
     </section>
-
-    
 </body>
 </html>
