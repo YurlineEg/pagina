@@ -6,22 +6,27 @@
     --ligth: #A6A6A6;
     --ligther: #D1D1D1;
 }
-/* Barra inicial */ 
 
 body 
 {
     flex: auto;
+    padding: none;
+    margin: none;
     background-color: var(--ligther);
 }
-/* -------------------------- Letter of the options ------------------------ */
+
 a
 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--ligther);
+    text-decoration: none;
+    font-weight: bold;
+    margin: none;
+    padding: none;
 }
 
-/* --------------------------- ID of main sections ----------------------------*/
 
+/*-------------------- Barra inicial --------------------*/ 
 
 #options_menu{
     display: flex;
@@ -78,6 +83,20 @@ input:focus{
     padding: 0.23rem;
 }
 
+.btn_link{
+    align-items: flex-end;
+    margin-right: 1rem;
+    background-color: var(--darker);
+    padding: none;
+    background-color: black;
+    height: fit-content;
+    padding: 0.9%;
+    border: none;
+    border-radius: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 #catalog_button{
     margin-right: none;
     margin-left: 3rem;
@@ -98,10 +117,24 @@ input:focus{
     background-color: var(--medium);
 }
 
+.log_btn:hover{
+    background-color: var(--medium);
+}
+
 #catalog_button:hover{
     background-color: var(--ligth);
 }
 
+#home_button
+{
+    margin-right: none;
+    margin-left: 3rem;
+    background-color: var(--darker);
+}
+
+#home_button:hover{
+    background-color: var(--dark);
+}
 
 /* --------------------------------- Classes - Main section --------------------------------- */
 .options_menu
@@ -110,25 +143,35 @@ input:focus{
     display: flex;
 }
 
-.btn_link{
-    align-items: flex-end;
-    margin-right: 1rem;
-    background-color: var(--darker);
-    padding: none;
-    background-color: black;
-    height: fit-content;
-    padding: 0.9%;
-    border: none;
-    border-radius: 2rem;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
 .log_btn:hover{
     background-color: var(--medium);
 }
 
 /* ---------------------- Classes compleat of options ---------------------------------------- */
+.btn_left
+{
+    align-items: flex-end;
+    margin-right: 1rem;
+    padding: none;
+    background-color: var(--medium);
+    height: fit-content;
+    padding: 5%;
+    border: none;
+    border-radius: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#btn_left
+{
+    margin-top: 1rem;
+}
+
+.btn_left:hover
+{
+    background-color: var(--dark);
+}
+
 .list_options_plus_second_opcions
 {
     margin-top: 2rem;
@@ -151,36 +194,264 @@ input:focus{
 /* -------------- list options right ----------*/
 .list_options_right
 {
-    padding: 3rem;
+    padding: 2rem;
+}
+
+
+/*------------------------ figuras --------------------*/
+.btn_fig
+{
+    align-items: flex-end;
+    margin-right: 1rem;
+    padding: none;
+    background-color: var(--darker);
+    height: fit-content;
+    padding: 1%;
+    border: none;
+    border-radius: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.btn_fig:hover
+{
+    background-color: var(--dark);
+}
+
+#btn_fig
+{
+    margin-left: 42%;
+}
+
+.fig-electro
+{
+    width: 95%;
+    margin: auto;
+    margin-top: 0%;
+    overflow: hidden;
+}
+.fig-electro ul
+{
     display: flex;
+    padding: 0%;
+    width: 100%;
+    
+    animation: cambio1 50s infinite;
 }
 
-#electroforming_pieces_options
+.fig-electro li
 {
-    padding-left: 3rem;
+    width: 100%;
+    list-style: none;
+    text-align: center;
 }
 
-#img_pieces-electroforming
+.fig-electro img
 {
-    height: 20rem;
+    width: 80%;
 }
 
-#electroforming_rings_options
+@keyframes cambio1
 {
-    padding-left: 4rem;
+    0% {margin-left: 0%;}
+    5% {margin-left: 0%;}
+
+    10% {margin-left: -100%;}
+    15% {margin-left: -100%;} 
+
+    20% {margin-left: -200%;}
+    25% {margin-left: -200%;}    
+    
+    30% {margin-left: -300%;}
+    35% {margin-left: -300%;}    
+
+    40% {margin-left: -400%;}
+    45% {margin-left: -400%;}
+
+    50% {margin-left: -500%;}
+    55% {margin-left: -500%;}
+
+    60% {margin-left: -600%;}
+    65% {margin-left: -600%;}
+
+    70% {margin-left: -700%;}
+    75% {margin-left: -700%;}
+
+    80% {margin-left: -800%;}
+    85% {margin-left: -800%;}
+
+    90% {margin-left: -900%;}
+    100% {margin-left: -900%;}
 }
 
-#img_rings-electroforming
+/*-------------------------- sets of electroforming ------------------------*/
+.btn_sets
 {
-    height: 20rem;
+    align-items: flex-end;
+    margin-right: 1rem;
+    padding: none;
+    background-color: var(--darker);
+    height: fit-content;
+    padding: 1%;
+    border: none;
+    border-radius: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-#electroforming_pendants_and_earrings_options
+.btn_sets:hover
 {
-    padding-left: 4rem;
+    background-color: var(--dark);
 }
 
-#img_peandants_and_earrings-electroforming
+#btn_sets
 {
-    height: 20rem;
+    margin-left: 38%;
+}
+
+.sets-electro
+{
+    width: 95%;
+    margin: auto;
+    margin-top: 0%;
+    overflow: hidden;
+}
+.sets-electro ul
+{
+    display: flex;
+    padding: 0%;
+    width: 200%;
+    
+    animation: cambio2 50s infinite;
+}
+
+.sets-electro li
+{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.sets-electro img
+{
+    width: 90%;
+}
+
+@keyframes cambio2
+{
+    0% {margin-left: 0%;}
+    5% {margin-left: 0%;}
+
+    10% {margin-left: -100%;}
+    15% {margin-left: -100%;} 
+
+    20% {margin-left: -200%;}
+    25% {margin-left: -200%;}    
+    
+    30% {margin-left: -300%;}
+    35% {margin-left: -300%;}    
+
+    40% {margin-left: -400%;}
+    45% {margin-left: -400%;}
+
+    50% {margin-left: -500%;}
+    55% {margin-left: -500%;}
+
+    60% {margin-left: -600%;}
+    65% {margin-left: -600%;}
+
+    70% {margin-left: -700%;}
+    75% {margin-left: -700%;}
+
+    80% {margin-left: -800%;}
+    85% {margin-left: -800%;}
+
+    90% {margin-left: -900%;}
+    100% {margin-left: -900%;}
+}
+
+/*------------------------- rings electro ----------------------------------*/
+.btn_rings
+{
+    align-items: flex-end;
+    margin-right: 1rem;
+    padding: none;
+    background-color: var(--darker);
+    height: fit-content;
+    padding: 1%;
+    border: none;
+    border-radius: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.btn_rings:hover
+{
+    background-color: var(--dark);
+}
+
+#btn_rings
+{
+    margin-left: 42%;
+}
+
+.rings-electro
+{
+    width: 95%;
+    margin: auto;
+    margin-top: 0%;
+    overflow: hidden;
+}
+.rings-electro ul
+{
+    display: flex;
+    padding: 0%;
+    width: 500%;
+    
+    animation: cambio3 50s infinite;
+}
+
+.rings-electro li
+{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.rings-electro img
+{
+    width: 90%;
+}
+
+@keyframes cambio3
+{
+    0% {margin-left: 0%;}
+    5% {margin-left: 0%;}
+
+    10% {margin-left: -100%;}
+    15% {margin-left: -100%;} 
+
+    20% {margin-left: -200%;}
+    25% {margin-left: -200%;}    
+    
+    30% {margin-left: -300%;}
+    35% {margin-left: -300%;}    
+
+    40% {margin-left: -400%;}
+    45% {margin-left: -400%;}
+
+    50% {margin-left: -500%;}
+    55% {margin-left: -500%;}
+
+    60% {margin-left: -600%;}
+    65% {margin-left: -600%;}
+
+    70% {margin-left: -700%;}
+    75% {margin-left: -700%;}
+
+    80% {margin-left: -800%;}
+    85% {margin-left: -800%;}
+
+    90% {margin-left: -900%;}
+    100% {margin-left: -900%;}
 }
