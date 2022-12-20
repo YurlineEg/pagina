@@ -125,49 +125,60 @@ input:focus{
     background-color: var(--ligth);
 }
 
+#home_button
+{
+    margin-right: none;
+    margin-left: 3rem;
+    background-color: var(--darker);
+}
 
+#home_button:hover{
+    background-color: var(--dark);
+}
 /*------------------------------------------ list of products --------------------------------------*/ 
 .list_of_products
 {
     margin-top: 2%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-bottom: 2%;
     background-color: var(--ligth);
     padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /*-------------- Opcion one -------------*/
 #first_box
 {
-    display: flex;
     background-color: var(--medium);
+    padding: 2rem;
 }
 
-.imgs-electro
+.imgs_electroforming
 {
     width: 100%;
     margin: auto;
     margin-top: 0%;
     overflow: hidden;
 }
-.imgs-electro ul
+.imgs_electroforming ul
 {
     display: flex;
     padding: 0%;
-    width: 750%;
+    width: 300%;
     
     animation: cambio 50s infinite;
 }
 
-.imgs-electro li
+.imgs_electroforming li
 {
     width: 100%;
     list-style: none;
     text-align: center;
 }
 
-.imgs-electro img
+.imgs_electroforming img
 {
     width: 80%;
 }
@@ -206,18 +217,24 @@ input:focus{
 }
 
 
-#electro-button
+#btn_electroforming
 {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 45%;
+    background-color: var(--dark);
+    
 }
 
-#electro-button:hover{
-    background-color: var(--ligther);
+#btn_electroforming:hover{
+    background-color: var(--darker);
 }
 
-#electro_link{
+#btn_electroforming{
     color: var(--dark);
+}
+
+#leters-style1
+{
+    color: var(--ligther);
 }
 
 .btn_link-options
@@ -226,7 +243,7 @@ input:focus{
     margin-right: 1rem;
     background-color: var(--darker);
     padding: none;
-    background-color: rgb(250, 246, 246);
+    background-color: rgb(255, 255, 255);
     height: fit-content;
     padding: 0.9%;
     border: none;
@@ -238,8 +255,7 @@ input:focus{
 /*-------------- Opcion two - chains -------------*/
 #second_box
 {
-    display: flex;
-    background-color: var(--medium);
+    background-color: var(--ligther);
 }
 
 .imgs-chains
@@ -253,7 +269,7 @@ input:focus{
 {
     display: flex;
     padding: 0%;
-    width: 750%;
+    width: 300%;
     
     animation: cambio2 50s infinite;
 }
@@ -305,19 +321,97 @@ input:focus{
 
 #chains-button
 {
-    margin-left: 17.5%;
-    margin-right: 17.5%;
+    margin-top: 2%;
+    margin-left: 47.3%;
+    background-color: white;
 }
 
 #chains-button:hover{
-    background-color: var(--ligther);
+    background-color: beige;
 }
 
-#chains_link{
-    color: var(--dark);
+#leters-style2
+{
+    color: black;
 }
 
 /*-------------- Opcion three - -------------*/
+#third_box
+{
+    background-color: var(--medium);
+    padding: 2%;
+}
 
+.imgs-buckler
+{
+    width: 100%;
+    margin: auto;
+    margin-top: 0%;
+    overflow: hidden;
+}
+.imgs-buckler ul
+{
+    display: flex;
+    padding: 0%;
+    width: 300%;
+    
+    animation: cambio3 50s infinite;
+}
+
+.imgs-buckler li
+{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.imgs-buckler img
+{
+    width: 80%;
+}
+
+@keyframes cambio3 
+{
+    0% {margin-left: 0%;}
+    5% {margin-left: 0%;}
+
+    10% {margin-left: -100%;}
+    15% {margin-left: -100%;} 
+
+    20% {margin-left: -200%;}
+    25% {margin-left: -200%;}    
+    
+    30% {margin-left: -300%;}
+    35% {margin-left: -300%;}    
+
+    40% {margin-left: -400%;}
+    45% {margin-left: -400%;}
+
+    50% {margin-left: -500%;}
+    55% {margin-left: -500%;}
+
+    60% {margin-left: -600%;}
+    65% {margin-left: -600%;}
+
+    70% {margin-left: -700%;}
+    75% {margin-left: -700%;}
+
+    80% {margin-left: -800%;}
+    85% {margin-left: -800%;}
+
+    90% {margin-left: -900%;}
+    100% {margin-left: -900%;}
+}
+
+#buckler-button
+{
+    margin-top: 2%;
+    margin-left: 47.3%;
+    background-color: var(--dark);
+}
+
+#buckler-button:hover{
+    background-color: var(--darker);
+}
 
 /*----------------*/
