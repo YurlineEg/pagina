@@ -1,0 +1,258 @@
+:root 
+{
+    --darker: #141414;
+    --dark: #242833;
+    --medium: #444C61;
+    --ligth: #A6A6A6;
+    --ligther: #D1D1D1;
+}
+
+body 
+{
+    flex: auto;
+    padding: none;
+    margin: none;
+    background-color: var(--ligther);
+}
+
+a
+{
+    font-size: 0.8rem;
+    color: var(--ligther);
+    text-decoration: none;
+    font-weight: bold;
+    margin: none;
+    padding: none;
+}
+
+
+/*-------------------- Barra inicial --------------------*/ 
+
+#options_menu{
+    display: flex;
+    background-color: black;
+    margin: none;
+    padding: 0.3%;
+    border: none;
+    border-radius: 0.6rem;
+}
+
+
+#logo
+{
+    margin-left: 25%;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 4rem;
+}
+
+#barra_busqueda
+{
+    margin-left: auto;
+    margin-top: 0.5%;
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 1.6rem;
+    width: 25%;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    outline: none;
+}
+
+input:focus{
+    border: none;
+    box-shadow: -0.1rem 0rem 1.2rem var(--ligth);
+}
+
+#search_button
+{
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#lupa
+{
+    height: 1rem;
+    margin: none;
+    padding: 0.23rem;
+}
+
+.btn_link{
+    align-items: flex-end;
+    margin-right: 1rem;
+    background-color: var(--darker);
+    padding: none;
+    background-color: black;
+    height: fit-content;
+    padding: 0.9%;
+    border: none;
+    border-radius: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#catalog_button{
+    margin-right: none;
+    margin-left: 3rem;
+    background-color: var(--ligther);
+    color: black;
+}
+
+#catalog_link{
+    color: var(--dark);
+}
+
+#sing_up_button
+{
+    background-color: var(--dark);
+}
+
+#sing_up_button:hover{
+    background-color: var(--medium);
+}
+
+.log_btn:hover{
+    background-color: var(--medium);
+}
+
+#catalog_button:hover{
+    background-color: var(--ligth);
+}
+
+#home_button
+{
+    margin-right: none;
+    margin-left: 3rem;
+    background-color: var(--darker);
+}
+
+#home_button:hover{
+    background-color: var(--dark);
+}
+
+/* --------------------------------- Classes - Main section --------------------------------- */
+.options_menu
+{
+    background-color: black;
+    display: flex;
+}
+
+.log_btn:hover{
+    background-color: var(--medium);
+}
+
+/* ---------------------- Classes compleat of options ---------------------------------------- */
+.btn_left
+{
+    align-items: flex-end;
+    margin-right: 1rem;
+    padding: none;
+    background-color: var(--medium);
+    height: fit-content;
+    padding: 5%;
+    border: none;
+    border-radius: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#btn_left
+{
+    margin-top: 1rem;
+}
+
+.btn_left:hover
+{
+    background-color: var(--dark);
+}
+
+.list_options_plus_second_opcions
+{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: var(--ligth);
+    display: flex;
+}
+
+/*------------------ list options left -----------------*/
+.list_options_left
+{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: var(--medium);
+
+}
+
+/*-------------------------------------------- right -------------------------------------------*/
+.list_options_right
+{
+    background-color: var(--ligth);
+}
+
+.tittle_box
+{
+    background-color: var(--medium);
+    padding-top: 1%;
+}
+
+.tittle
+{
+    background-color: var(--medium);
+    color: white;
+    margin-left: 3%;
+    font-size: 2rem;
+    padding-bottom: 1%;
+}
+
+.list_products
+{
+    background-color: var(--ligth);
+}
+
+.img-of-the-list
+{
+    height: 15rem;
+    margin-left: 20%;
+    padding-right: 2rem;
+}
+
+.btn-options
+{
+    align-items: flex-end;
+    margin-right: 1rem;
+    background-color: var(--darker);
+    padding: none;
+    background-color: var(--medium);
+    height: fit-content;
+    padding: 2%;
+    border: none;
+    margin-left: 23%;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-bottom: none;
+}
+
+#btn-options:hover
+{
+    background-color: var(--dark);
+}
+
+#options-box
+{
+    padding: 2%;
+}
+
+/*------------------------ sunflower - set  -----------------------*/
+.for-line
+{
+    display: flex;
+}
+
