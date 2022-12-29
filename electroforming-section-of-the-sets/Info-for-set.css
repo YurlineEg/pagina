@@ -1,0 +1,179 @@
+:root 
+{
+    --darker: #141414;
+    --dark: #242833;
+    --medium: #444C61;
+    --ligth: #A6A6A6;
+    --ligther: #D1D1D1;
+}
+
+body 
+{
+    flex: auto;
+    padding: none;
+    margin: none;
+    background-color: var(--ligther);
+}
+
+a
+{
+    font-size: 0.8rem;
+    color: var(--ligther);
+    text-decoration: none;
+    font-weight: bold;
+    margin: none;
+    padding: none;
+}
+
+
+/*-------------------- Barra inicial --------------------*/ 
+
+#options_menu{
+    display: flex;
+    background-color: black;
+    margin: none;
+    padding: 0.3%;
+    border: none;
+    border-radius: 0.6rem;
+}
+
+
+#logo
+{
+    margin-left: 25%;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 4rem;
+}
+
+#barra_busqueda
+{
+    margin-left: auto;
+    margin-top: 0.5%;
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 1.6rem;
+    width: 25%;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    outline: none;
+}
+
+input:focus{
+    border: none;
+    box-shadow: -0.1rem 0rem 1.2rem var(--ligth);
+}
+
+#search_button
+{
+    height: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#lupa
+{
+    height: 1rem;
+    margin: none;
+    padding: 0.23rem;
+}
+
+.btn_link{
+    align-items: flex-end;
+    margin-right: 1rem;
+    background-color: var(--darker);
+    padding: none;
+    background-color: black;
+    height: fit-content;
+    padding: 0.9%;
+    border: none;
+    border-radius: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#catalog_button{
+    margin-right: none;
+    margin-left: 3rem;
+    background-color: var(--ligther);
+    color: black;
+}
+
+#catalog_link{
+    color: var(--dark);
+}
+
+#sing_up_button
+{
+    background-color: var(--dark);
+}
+
+#sing_up_button:hover{
+    background-color: var(--medium);
+}
+
+.log_btn:hover{
+    background-color: var(--medium);
+}
+
+#catalog_button:hover{
+    background-color: var(--ligth);
+}
+
+/*---------------------------------------- end of main--------------------------------------*/
+.box-information
+{
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: var(--ligth);
+}
+
+.tittle-of-the-set
+{
+    margin: none;
+    text-align: center;
+    background-color: var(--medium);
+}
+
+h1
+{
+    font-size: 300%;
+}
+
+.img-presentation
+{
+    height: 30rem;
+}
+
+.img-of-information
+{
+    margin-left: 4%;
+    text-align: center;
+}
+
+.inf-right
+{
+    margin: 4%;
+}
+
+.section-inf
+{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+h2
+{
+    font-size: 200%;
+    margin-left: 2%;
+}
+
+h3
+{
+    font-size: 100%;
+}

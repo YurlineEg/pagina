@@ -176,7 +176,7 @@ input:focus{
 {
     margin-top: 2rem;
     margin-left: 2rem;
-    margin-right: 2rem;
+    margin-right: 0rem;
     background-color: var(--ligth);
     display: flex;
 }
@@ -234,7 +234,8 @@ input:focus{
     height: fit-content;
     padding: 2%;
     border: none;
-    margin-left: 23%;
+    margin-left: 20%;
+    margin-right: 5rem;
     border-radius: .5rem;
     margin-top: 1rem;
     margin-bottom: none;
