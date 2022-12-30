@@ -91,6 +91,7 @@ input:focus {
 #log_out_button {
   color: var(--ligther);
   font-weight: bold;
+  display: none;
 }
 
 #log_out_button:hover {
@@ -241,4 +242,13 @@ h5 {
 .end_page {
   margin-top: 2%;
   background-color: var(--ligth);
+}
+
+/* Cosas que shmin sabe */
+.logged {
+  display: none;
+}
+
+.not_logged {
+  display: none;
 }
