@@ -176,16 +176,23 @@ input:focus {
 }
 
 /*------------------ list options left -----------------*/
-.list_options_left {
-  padding-top: 2rem;
+.list_options_left 
+{
+  padding-top: 6rem;
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: var(--medium);
 }
 
 /*-------------------------------------------- right -------------------------------------------*/
-.list_options_right {
-  background-color: var(--ligth);
+#letters-options
+{
+  color: black;
+}
+
+.list_options_right 
+{
+  background-color: white;
 }
 
 .tittle_box {
@@ -202,7 +209,7 @@ input:focus {
 }
 
 .list_products {
-  background-color: var(--ligth);
+  background-color: white;
 }
 
 .img-of-the-list {
@@ -216,11 +223,11 @@ input:focus {
   margin-right: 1rem;
   background-color: var(--darker);
   padding: none;
-  background-color: var(--medium);
+  background-color: white;
   height: fit-content;
   padding: 2%;
   border: none;
-  margin-left: 20%;
+  margin-left: 30%;
   margin-right: 5rem;
   border-radius: 0.5rem;
   margin-top: 1rem;
@@ -228,14 +235,27 @@ input:focus {
 }
 
 #btn-options:hover {
-  background-color: var(--dark);
+  background-color: var(--ligth);
 }
 
 #options-box {
   padding: 2%;
 }
 
-/*------------------------ sunflower - set  -----------------------*/
+#cost
+{
+  color: gray;
+  text-align: center;
+  margin-top: 1%;
+  height: fit-content;
+}
+
+h5
+{
+  font-size: 150%;
+}
+
+/*------------------------ options  -----------------------*/
 .for-line {
   display: flex;
 }
@@ -247,4 +267,11 @@ input:focus {
 
 .not_logged {
   display: none;
+}
+
+/* --------------------------- margin ------------------------*/
+.margen
+{
+  padding-left: .1%;
+  background-color: var(--medium);
 }

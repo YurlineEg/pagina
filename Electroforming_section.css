@@ -176,7 +176,8 @@ input:focus {
 }
 
 /*------------------ list options left -----------------*/
-.list_options_left {
+.list_options_left 
+{
   padding-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -184,7 +185,8 @@ input:focus {
 }
 
 /* -------------- list options right ----------*/
-.list_options_right {
+.list_options_right 
+{
   padding: 2rem;
 }
 
