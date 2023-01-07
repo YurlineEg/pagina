@@ -74,6 +74,20 @@ input:focus {
   padding: 0.23rem;
 }
 
+#box_button
+{
+  margin: none;
+  background-color: black;
+}
+
+.imgbox
+{
+  height: 3rem;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
 .btn_link {
   align-items: flex-end;
   margin-right: 1rem;

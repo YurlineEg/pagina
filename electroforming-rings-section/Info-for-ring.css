@@ -83,6 +83,20 @@ input:focus{
     padding: 0.23rem;
 }
 
+#box_button
+{
+  margin: none;
+  background-color: black;
+}
+
+.imgbox
+{
+  height: 3rem;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
 .btn_link{
     align-items: flex-end;
     margin-right: 1rem;
@@ -223,4 +237,78 @@ h3
 {
     font-size: 100%;
     color: var(--ligther);
+}
+
+/*--------------------------- table caracteristicas ------------------------------*/
+.table1
+{
+    margin-top: 1%;
+    width: 120%;
+    color: var(--ligther);
+}
+
+.table2
+{
+    margin-top: 4%;
+    width: 120%;
+    color: var(--ligther);
+}
+
+.agree-product
+{
+    display: flex;
+    margin-top: 2%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+h4
+{
+    color: var(--ligther);
+    height: 1rem;
+}
+
+.menos
+{
+    width: 2rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.mas
+{
+    width: 1.5rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.agree-box
+{
+    align-items: flex-end;
+    margin-right: 1rem;
+    background-color: var(--darker);
+    padding: none;
+    background-color: black;
+    height: fit-content;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0%;
+    border: none;
+    border-radius: 1rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.agree-box:hover
+{
+    background-color: var(--medium);
+}
+
+
+/* -------------------- EL H5 ES PARA COMENTARIOS IMPORTANTES COMO TERMINOS Y ASI O NOTAS DISCRETAS PERO IMPORTANTES ----------*/
+h5
+{
+    color: var(--ligth);
+    font-style: italic;
 }
