@@ -226,13 +226,6 @@ h1
     margin-right: 2%;
 }
 
-h2
-{
-    font-size: 200%;
-    margin-left: 2%;
-    color: var(--ligther);
-}
-
 h3
 {
     font-size: 100%;
@@ -256,6 +249,7 @@ h3
 
 .agree-product
 {
+    margin-left: 8rem;
     display: flex;
     margin-top: 2%;
     padding-top: 0%;
@@ -270,18 +264,21 @@ h4
 
 .menos
 {
-    width: 2rem;
+    width: 1.1rem;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
 }
 
 .mas
 {
-    width: 1.5rem;
+    width: 1.1rem;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
 }
-
 
 .agree-box
 {
@@ -290,14 +287,14 @@ h4
     background-color: var(--darker);
     padding: none;
     background-color: black;
-    height: fit-content;
+    height: max-content;
     padding-left: 1%;
     padding-right: 1%;
-    padding-top: 0%;
+    padding: 2%;
     border: none;
-    border-radius: 1rem;
-    margin-top: auto;
-    margin-bottom: auto;
+    border-radius: 2rem;
+    margin-top: 1.3rem;
+    margin-left: 1rem;
 }
 
 .agree-box:hover
