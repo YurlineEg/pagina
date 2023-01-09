@@ -4,26 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Inicio_de_sesion.css" />
+    <!-- Toastify -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <!-- Main style -->
+    <link rel="stylesheet" href="Log_in.css" />
+    <link rel="shortcut icon" href="./imagenes/Logotipo.jpeg" type="image/x-icon" />
     <title>Loging</title>
+    <script src="./logic/Log_in.js" type="module"></script>
   </head>
   <body>
     <div class="container_form_sing_up">
-      <form class="formulario">
+      <form class="formulario" id="log_in_form">
         <a href="./Inicio.html">
           <img id="logo1" src="./imagenes/Logotipo.jpeg" alt="Logotipo" />
         </a>
         <h2 class="create_account">Iniciar session</h2>
         <p class="cuenta">Ingrese su usuario y contraseña:</p>
-        <input type="email" placeholder="Usuario" id="input_email" />
-        <input type="password" placeholder="Contraseña" id="input_pass" />
-        <input
-          type="button"
-          value="Login"
-          onClick="location.href='./index.html'"
-          id="input_button"
-        />
-        <a id="home_link" href="./index.html">Inicio</a>
+        <input type="email" placeholder="Usuario" id="input_email" required />
+        <input type="password" placeholder="Contraseña" id="input_pass" required />
+        <input type="submit" value="Login" id="input_button" />
+        <a id="home_link" href="./Inicio.html">Inicio</a>
         <p id="Visitanos">Visitanos en</p>
         <div class="icons">
           <div class="border_icon">
@@ -39,6 +43,5 @@
         </div>
       </form>
     </div>
-    <script src="login.js"></script>
   </body>
 </html>

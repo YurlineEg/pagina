@@ -1,0 +1,163 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --darker: #141414;
+  --dark: #242833;
+  --medium: #444c61;
+  --ligth: #a6a6a6;
+  --ligther: #d1d1d1;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--ligther);
+  color: var(--ligther);
+  padding: none;
+  margin: none;
+}
+
+a {
+  all: unset;
+  text-decoration: none;
+  color: inherit;
+  color: white;
+}
+
+#logo1 {
+  width: 6rem;
+}
+
+/*-------------- sing up --------------.*/
+
+.container_form_sing_up {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  transition: all 0.5s ease-out;
+  padding: none;
+  margin: none;
+}
+
+.singup_button {
+  padding: 1rem;
+  font-weight: 400;
+  background-color: #787878;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  transition: all 0.3 ease-in;
+  color: #fff;
+}
+
+.singup_button:hover {
+  background-color: #707070;
+}
+
+.formulario {
+  width: 400px;
+  padding: 1rem;
+  margin: 2rem;
+  background-color: black;
+  text-align: center;
+}
+
+.create_account {
+  padding: 0.4rem;
+  font-size: 1.5srem;
+}
+
+.icons {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.border_icon {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  border: solid thin white;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  transition: all 0.3s ease-in;
+}
+
+.border_icon:hover {
+  background-color: #525252;
+  cursor: pointer;
+}
+
+.cuenta {
+  padding: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.formulario input {
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: white thin solid;
+  text-align: center;
+  outline: none;
+  padding: 0.2rem 0;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.formulario input[type='submit'] {
+  width: 60%;
+  margin: auto;
+  border: solid thin white;
+  padding: 0.7rem;
+  border-radius: 2rem;
+  background-color: white;
+  font-weight: 600;
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: #8a8989;
+}
+
+.letrablanca {
+  color: white;
+}
+
+#input_button {
+  margin-bottom: 30px;
+  color: black;
+}
+
+#home_link {
+  text-decoration: none;
+  color: var(--ligther);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#Visitanos {
+  text-decoration: none;
+  color: var(--ligth);
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 10px;
+  margin-top: 20px;
+}
