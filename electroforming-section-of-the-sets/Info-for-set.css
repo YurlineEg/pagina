@@ -83,6 +83,20 @@ input:focus{
     padding: 0.23rem;
 }
 
+#box_button
+{
+  margin: none;
+  background-color: black;
+}
+
+.imgbox
+{
+  height: 3rem;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
 .btn_link{
     align-items: flex-end;
     margin-right: 1rem;
@@ -128,33 +142,78 @@ input:focus{
 /*---------------------------------------- end of main--------------------------------------*/
 .box-information
 {
-    margin-right: 20%;
-    margin-left: 20%;
-    background-color: var(--ligth);
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: var(--dark);
 }
 
 .tittle-of-the-set
 {
     margin: none;
     text-align: center;
-    background-color: var(--medium);
+    background-color: var(--ligth);
 }
 
 h1
 {
     font-size: 300%;
+    color: var(--dark);
 }
 
-.img-presentation
+.box-in-box-inf
 {
-    height: 30rem;
+    background-color: var(--dark);
+    display: flex;
 }
 
-.img-of-information
+.the-imgs
 {
-    margin-left: 4%;
+    width: 50%;
+}
+.slider-of-img 
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 0%;
+    overflow: hidden;
+    text-align: left;
+}
+
+.slider-of-img ul 
+{
+    display: flex;
+    padding: 0;
+    width: 400%;
+  
+    animation: cambios 20s infinite;
+}
+  
+.slider-of-img li 
+{
+    width: 100%;
+    list-style: none;
     text-align: center;
 }
+  
+.slider-of-img img {
+    width: 100%;
+  }
+  
+  @keyframes cambios {
+    0% {margin-left: 0%;}
+    15% {margin-left: 0%;}
+  
+    30% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+  
+    60% {margin-left: -200%;}
+    75% {margin-left: -200%;}
+  
+    90% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  
+  }
+
 
 .inf-right
 {
@@ -163,17 +222,90 @@ h1
 
 .section-inf
 {
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
-h2
-{
-    font-size: 200%;
-    margin-left: 2%;
+    margin-left: 0%;
+    margin-right: 2%;
 }
 
 h3
 {
     font-size: 100%;
+    color: var(--ligther);
+}
+
+/*--------------------------- table caracteristicas ------------------------------*/
+.table1
+{
+    margin-top: 1%;
+    width: 120%;
+    color: var(--ligther);
+}
+
+.table2
+{
+    margin-top: 4%;
+    width: 120%;
+    color: var(--ligther);
+}
+
+.agree-product
+{
+    margin-left: 8rem;
+    display: flex;
+    margin-top: 2%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+h4
+{
+    color: var(--ligther);
+    height: 1rem;
+}
+
+.menos
+{
+    width: 1.1rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+
+.mas
+{
+    width: 1.1rem;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+.agree-box
+{
+    align-items: flex-end;
+    margin-right: 1rem;
+    background-color: var(--darker);
+    padding: none;
+    background-color: black;
+    height: max-content;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding: 2%;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 1.3rem;
+    margin-left: 1rem;
+}
+
+.agree-box:hover
+{
+    background-color: var(--medium);
+}
+
+
+/* -------------------- EL H5 ES PARA COMENTARIOS IMPORTANTES COMO TERMINOS Y ASI O NOTAS DISCRETAS PERO IMPORTANTES ----------*/
+h5
+{
+    color: var(--ligth);
+    font-style: italic;
 }
