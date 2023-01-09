@@ -262,6 +262,39 @@ input:focus {
   text-align: center;
   margin-top: 1%;
   height: fit-content;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+
+#agr-pedido
+{
+  color: var(--darker);
+  font-style: oblique;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2%;
+  height: fit-content;
+}
+
+.agr-pedido
+{
+  align-items: flex-end;
+  margin-right: 1rem;
+  background-color: var(--darker);
+  padding: none;
+  background-color: var(--ligther);
+  height: fit-content;
+  padding: 2%;
+  border: none;
+  margin-left: 34%;
+  margin-right: 5rem;
+  border-radius: 0.5rem;
+  margin-top: none;
+  margin-bottom: none;
+}
+.agr-pedido:hover
+{
+  background-color: var(--ligth);
 }
 
 h5

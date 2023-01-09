@@ -566,3 +566,121 @@ input:focus {
 .not_logged {
   display: none;
 }
+
+/* ------------------------------------ brazzalete ---------------------------------*/
+.btn_brazalete {
+  align-items: flex-end;
+  margin-right: 1rem;
+  padding: none;
+  background-color: var(--darker);
+  height: fit-content;
+  padding: 1%;
+  border: none;
+  border-radius: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.btn_brazalete:hover {
+  background-color: var(--dark);
+}
+
+#btn_brazalete {
+  margin-left: 47%;
+}
+
+.brazalete-electro {
+  width: 95%;
+  margin: auto;
+  margin-top: 0%;
+  overflow: hidden;
+}
+.brazalete-electro ul {
+  display: flex;
+  padding: 0%;
+  width: 100%;
+
+  animation: cambio4 50s infinite;
+}
+
+.brazalete-electro li {
+  width: 100%;
+  list-style: none;
+  text-align: center;
+}
+
+.brazalete-electro img {
+  width: 80%;
+}
+
+@keyframes cambio4 {
+  0% {
+    margin-left: 0%;
+  }
+  5% {
+    margin-left: 0%;
+  }
+
+  10% {
+    margin-left: -100%;
+  }
+  15% {
+    margin-left: -100%;
+  }
+
+  20% {
+    margin-left: -200%;
+  }
+  25% {
+    margin-left: -200%;
+  }
+
+  30% {
+    margin-left: -300%;
+  }
+  35% {
+    margin-left: -300%;
+  }
+
+  40% {
+    margin-left: -400%;
+  }
+  45% {
+    margin-left: -400%;
+  }
+
+  50% {
+    margin-left: -500%;
+  }
+  55% {
+    margin-left: -500%;
+  }
+
+  60% {
+    margin-left: -600%;
+  }
+  65% {
+    margin-left: -600%;
+  }
+
+  70% {
+    margin-left: -700%;
+  }
+  75% {
+    margin-left: -700%;
+  }
+
+  80% {
+    margin-left: -800%;
+  }
+  85% {
+    margin-left: -800%;
+  }
+
+  90% {
+    margin-left: -900%;
+  }
+  100% {
+    margin-left: -900%;
+  }
+}
