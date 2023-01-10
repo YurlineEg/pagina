@@ -15,12 +15,11 @@ logInForm.addEventListener('submit', async (e) => {
     window.location.replace('/Inicio.html');
   } catch (error) {
     if (error.code === 'auth/wrong-password') {
-      console.log('contra');
-      showToast('contra', 'error');
+      showToast('Contraseña incorrecta', 'error');
     } else if (error.code === 'auth/user-not-found') {
-      console.log('usuario');
+      showToast('Correo no registrado', 'error');
     } else {
-      console.log('otro');
+      showToast('Ha ocurrido un error', 'error');
     }
   }
 });
