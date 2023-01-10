@@ -147,7 +147,7 @@ input:focus{
     background-color: var(--dark);
 }
 
-.tittle-of-the-set
+.tittle-of-the-ring
 {
     margin: none;
     text-align: center;
@@ -168,11 +168,11 @@ h1
 
 .the-imgs
 {
-    width: 50%;
+    width: 90%;
 }
 .slider-of-img 
 {
-    width: 80%;
+    width: 70%;
     margin: auto;
     margin-top: 0%;
     overflow: hidden;
@@ -214,10 +214,10 @@ h1
   
   }
 
-
 .inf-right
 {
-    margin: 4%;
+    margin: 0%;
+    padding: 0%;
 }
 
 .section-inf
@@ -226,24 +226,48 @@ h1
     margin-right: 2%;
 }
 
+h2
+{
+    color: var(--ligther);
+    font-weight: lighter;
+    font-size: 2.5rem;
+}
+
 h3
 {
     font-size: 100%;
     color: var(--ligther);
 }
 
+
+.imgcarro
+{
+    width: 5%;
+}
+
+h6
+{
+    font-size: 100%;
+    font-weight: lighter;
+    font-style: oblique;
+    color: var(--ligther);
+}
+
+
 /*--------------------------- table caracteristicas ------------------------------*/
 .table1
 {
+    margin-left: 15%;
     margin-top: 1%;
-    width: 120%;
+    width: 70%;
     color: var(--ligther);
 }
 
 .table2
 {
+    margin-left: 30%;
     margin-top: 4%;
-    width: 120%;
+    width: 40%;
     color: var(--ligther);
 }
 
@@ -258,7 +282,7 @@ h3
 
 h4
 {
-    color: var(--ligther);
+    color: white;
     height: 1rem;
 }
 
@@ -308,4 +332,13 @@ h5
 {
     color: var(--ligth);
     font-style: italic;
+}
+
+.box-especificaciones
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    margin-top: 2%;
 }
