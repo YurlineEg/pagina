@@ -3,7 +3,7 @@ class carrito
     comprarProducto (e)
     {
         e.preventDefauld();
-        if(e.target.classList.contains('agregar-carrito'))
+        if(e.target.classList.contains('agregar-pedido'))
         {
             const producto = e.target.parentElement.parent.parentElement;
             this.leerDatosProducto (producto);

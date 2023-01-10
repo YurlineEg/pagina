@@ -228,7 +228,7 @@ input:focus {
 
 .img-of-the-list {
   height: 15rem;
-  margin-left: 20%;
+  margin-left: 10%;
   padding-right: 2rem;
 }
 
@@ -241,7 +241,7 @@ input:focus {
   height: fit-content;
   padding: 2%;
   border: none;
-  margin-left: 30%;
+  margin-left: 20%;
   margin-right: 5rem;
   border-radius: 0.5rem;
   margin-top: 1rem;
@@ -286,7 +286,7 @@ input:focus {
   height: fit-content;
   padding: 2%;
   border: none;
-  margin-left: 34%;
+  margin-left: 20%;
   margin-right: 5rem;
   border-radius: 0.5rem;
   margin-top: none;
