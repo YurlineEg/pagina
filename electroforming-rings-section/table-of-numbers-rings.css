@@ -1,0 +1,138 @@
+:root 
+{
+    --darker: #141414;
+    --dark: #242833;
+    --medium: #444C61;
+    --ligth: #A6A6A6;
+    --ligther: #D1D1D1;
+}
+
+.selectionnumber
+{
+    margin-left: 13rem;
+}
+
+.numoptcions
+{
+    position: absolute;
+    transform: translate(-50%,50%);
+    display: flex;
+    top: 88%;
+    left: 70%;
+    background-color: var(--darker);
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 0 0 0rem white;
+    margin: 0;
+    padding: 0;
+}
+
+ul li
+{
+    list-style: none;
+    width: 35px;
+}
+
+ul li a
+{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    transform: 0.5s;
+    text-decoration: none;
+}
+
+ul li.active a
+{
+    color: royalblue;
+}
+
+.slideropc
+{
+    position: absolute;
+    width: 37px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: var(--ligth);
+    z-index: -1;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+ul li:nth-child(1).active ~ .slideropc
+{
+    left: 0px;
+    opacity: 1;
+}
+
+ul li:nth-child(2).active ~ .slideropc
+{
+    left: 37px;
+    opacity: 1;
+}
+
+.numoptcions li:nth-child(3).active ~ .slideropc
+{
+    left: 74px;
+    opacity: 1;
+}
+
+.numoptcions li:nth-child(4).active ~ .slideropc
+{
+    left: 108px;
+    opacity: 1;
+}
+
+.numoptcions li:nth-child(5).active ~ .slideropc
+{
+    left: 143px;
+    opacity: 1;
+}
+
+.numoptcions li:nth-child(6).active ~ .slideropc
+{
+    left: 178px;
+    opacity: 1;
+}
+
+.numoptcions li:nth-child(7).active ~ .slideropc
+{
+    left: 214px;
+    opacity: 1;
+}
+
+.numoptcions li:nth-child(8).active ~ .slideropc
+{
+    left: 248px;
+    opacity: 1;
+}
+
+.numoptcions li:nth-child(9).active ~ .slideropc
+{
+    left: 284px;
+    opacity: 1;
+}
+
+.numoptcions li:nth-child(10).active ~ .slideropc
+{
+    left: 319px;
+    opacity: 1;
+}
+
+
+.numoptcions li:nth-child(11).active ~ .slideropc
+{
+    left: 354px;
+    opacity: 1;
+}
+
+.numoptcions li:nth-child(12).active ~ .slideropc
+{
+    left: 388px;
+    opacity: 1;
+}

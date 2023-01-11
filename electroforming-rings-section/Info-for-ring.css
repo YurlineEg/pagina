@@ -233,12 +233,6 @@ h2
     font-size: 2.5rem;
 }
 
-h3
-{
-    font-size: 100%;
-    color: var(--ligther);
-}
-
 
 .imgcarro
 {
@@ -273,17 +267,31 @@ h6
 
 .agree-product
 {
-    margin-left: 8rem;
+    margin-left: 0rem;
     display: flex;
     margin-top: 2%;
     padding-top: 0%;
     padding-bottom: 0%;
 }
 
+.table3
+{
+    margin-left: 1%;
+    color: white;
+    border-color: var(--dark);
+}
+
+
 h4
 {
     color: white;
-    height: 1rem;
+    text-align: center;
+}
+
+.agreecantidad
+{
+    display: flex;
+
 }
 
 .menos
@@ -291,8 +299,14 @@ h4
     width: 1.1rem;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-top: 1.5rem;
-    margin-right: 1rem;
+    margin-top: 0rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.cant 
+{
+    margin-top: 0rem;
 }
 
 .mas
@@ -300,8 +314,9 @@ h4
     width: 1.1rem;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    margin-top: 1.5rem;
-    margin-left: 1rem;
+    margin-top: 0rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .agree-box
@@ -336,9 +351,25 @@ h5
 
 .box-especificaciones
 {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 5%;
     padding-bottom: 2%;
-    margin-top: 2%;
+    margin-top: 5%;
+}
+
+h3
+{
+    font-size: 110%;
+    color: var(--ligther);
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.tittle-inf
+{
+    margin-left: 2%;
+    font-weight: lighter;
+    font-size: 150%;
+
 }
