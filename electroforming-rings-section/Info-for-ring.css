@@ -142,8 +142,8 @@ input:focus{
 /*---------------------------------------- end of main--------------------------------------*/
 .box-information
 {
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 8%;
+    margin-left: 8%;
     background-color: var(--dark);
 }
 
@@ -156,8 +156,9 @@ input:focus{
 
 h1
 {
-    font-size: 300%;
+    font-size: 350%;
     color: var(--dark);
+    font-weight: lighter;
 }
 
 .box-in-box-inf
@@ -332,7 +333,8 @@ h4
     padding: 2%;
     border: none;
     border-radius: 2rem;
-    margin-top: 1.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
     margin-left: 1rem;
 }
 
@@ -355,7 +357,7 @@ h5
     margin-right: 10%;
     margin-bottom: 5%;
     padding-bottom: 2%;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 h3

@@ -9,7 +9,7 @@
 
 .selectionnumber
 {
-    margin-left: 13rem;
+    margin-left: 16rem;
 }
 
 .numoptcions
@@ -17,7 +17,7 @@
     position: absolute;
     transform: translate(-50%,50%);
     display: flex;
-    top: 88%;
+    top: 92%;
     left: 70%;
     background-color: var(--darker);
     border-radius: 2rem;
@@ -48,7 +48,7 @@ ul li a
 
 ul li.active a
 {
-    color: royalblue;
+    color: var(--darker);
 }
 
 .slideropc
