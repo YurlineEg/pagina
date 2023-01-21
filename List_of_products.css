@@ -160,7 +160,7 @@ input:focus {
   padding-right: 5%;
 }
 
-/*-------------- Opcion one -------------*/
+/*-------------- Opcion one pieces -------------*/
 #first_box {
   background-color: var(--medium);
   padding: 2rem;
@@ -175,7 +175,7 @@ input:focus {
 .imgs_electroforming ul {
   display: flex;
   padding: 0%;
-  width: 300%;
+  width: 800%;
 
   animation: cambio 50s infinite;
 }
